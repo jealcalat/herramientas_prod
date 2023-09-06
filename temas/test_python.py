@@ -81,5 +81,24 @@ v = rescorla_wagner(100, 0.1, 0.5, reforzamiento)
 plt.plot(v)
 plt.xlabel("Trial")
 plt.ylabel("V")
+plt.show()
 
-# %%
+
+# %% crear la función rescorla_wagner explicando los argumentos y lo que hace la función
+
+def rescorla_wagner(n, alpha, beta, reforzamiento):
+    """
+    Simula el modelo de Rescorla-Wagner para adquisición de condicionamiento clásico.
+    
+    Argumentos:
+        n: número de trials
+        alpha: parámetro de aprendizaje
+        beta: parámetro de saliencia del estímulo
+        reforzamiento: vector de reforzamiento en cada trial
+    """
+    V = [0]
+    for i in range(1, n):
+        deltaV = alpha * beta * (reforzamiento[i] - V[i-1])
+        V.append(V[i-1] + deltaV)
+    return V
+

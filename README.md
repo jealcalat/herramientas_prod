@@ -5,7 +5,7 @@ Centro de Estudios e Investigaciones en Comportamiento, Universidad de Guadalaja
 Instructores:
 
 - [Dr. Emmanuel Alcalá](https://scholar.google.com/citations?user=3URusCgAAAAJ), investigador posdoctoral en el CEIC mediante la beca de CONAHCYT EPM (2) del 2022, CVU 660431.
-- [Dr. Jonathan Buriticá](https://scholar.google.com/citations?user=GsHQSMIAAAAJ&hl=en), investigador de tiempo completo en el CEIC. 
+- [Dr. Jonathan Buriticá](https://scholar.google.com/citations?user=GsHQSMIAAAAJ&hl=en), investigador de tiempo completo en el CEIC.
 
 ---
 
@@ -29,9 +29,8 @@ Los temas estarán divididos como se muestra en la siguiete tabla:
 | 3. [Ingeniería de prompts en ChatGPT](temas/promptgpt.md)                     | Estructurar consultas en IA generativa de GPT   | 2     |
 | 4. [MWE para buscar ayuda](temas/mwe.md)                                      | Ejemplos mínimos de trabajo                     | 2     |
 | 5. [Inkscape](/temas/inkscape.md)                                             | Composición de figuras con gráficos vectoriales | 2     |
-| 6. [Zotero](temas/zotero.md)                                                        | Gestor de referencias bibliográficas            | 2     |
+| 6. [Zotero](temas/zotero.md)                                                  | Gestor de referencias bibliográficas            | 2     |
 | 7. [Búsquedas en Scopus, Web of Science y Google Scholar](temas/litsearch.md) | Búsqueda de literatura                          | 2     |
-
 
 ## Requisitos
 
